@@ -1,0 +1,68 @@
+body {
+    box-sizing: border-box;
+
+    font-size: 15px;
+    font-family: "Lexend Deca" !important;
+    font-weight: 400;
+
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.contenedor {
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: hsl(0, 0%, 95%);
+    padding: 130px 0px 130px 0px;
+}
+
+.contenido-principal {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card {
+    max-width: 250px;
+}
+.contenido {
+    padding: 40px 20px 40px 30px;
+}
+.contenido-sedans {
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 10px 0px 0px 10px;
+}
+.contenido-suvs {
+    background-color: hsl(184, 100%, 22%);
+}
+.contenido-luxury {
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0px 10px 10px 0px;
+}
+.contenido h3 {
+    font-family: "Big Shoulders Display" !important;
+    font-weight: 700;
+    font-size: 30px;
+}
+.contenido img {
+    max-width: 25%;
+}
+
+.boton-card {
+    padding: .6rem 2rem;
+    margin-top: 3rem;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 20px;
+    font-size: 12px;
+}
+.boton-sedans {
+    background-color: white;
+    color: hsl(31, 77%, 52%);;
+}
+.boton-suvs {
+    background-color: white;
+    color: hsl(184, 100%, 22%);
+}
+.boton-luxury {
+    background-color: white;
+    color: hsl(179, 100%, 13%);
+}
